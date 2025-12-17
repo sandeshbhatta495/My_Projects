@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>S-tech(Sandesh)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f4f6;
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+    }
+
+    .todo-container {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+      width: 400px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    button {
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    #submit {
+      width: 100%;
+      background-color: #2d89ef;
+      color: white;
+      margin-bottom: 15px;
+    }
+
+    #submit:hover {
+      /* background-color: #1b63c3; */
+        background-color: darkblue;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .task-text {
+      flex: 1;
+      margin-right: 10px;
+      word-break: break-word;
+    }
+
+    .action-btns button {
+      margin-left: 5px;
+      font-size: 12px;
+    }
+
+    .view-btn {
+      background-color: #4caf50;
+      color: white;
+    }
+
+    .edit-btn {
+      background-color: #ffc107;
+      color: black;
+    }
+
+    .remove-btn {
+      background-color: crimson;
+      color: white;
+    }
+
+    .remove-btn:hover {
+      background-color: aqua;
+    }
+    
+    .edit-btn:hover {
+      background-color: aqua;
+    }
+    
+    .footer {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="todo-container">
+    <h2> S Tech Lab <br>
+    Balkhu,Kathmandu</h2>
+
+    <!-- Static input area -->
+    <input type="text" id="taskInput" placeholder="Enter the Task " />
+    <button id="submit">Add Task</button>
+
+    <!-- Example Static Task List -->
+     <ul id="taskList">
+      <!-- <li>
+        <span class="task-text">git init</span>
+        <div class="action-btns">
+          <button class="view-btn">View</button>
+          <button class="edit-btn">Edit</button>
+          <button class="remove-btn">Delete</button>
+        </div>
+      </li>
+      <li>
+        <span class="task-text">git add</span>
+        <div class="action-btns">
+          <button class="view-btn">View</button>
+          <button class="edit-btn">Edit</button>
+          <button class="remove-btn">Delete</button>
+        </div>
+      </li>
+       <li>
+        <span class="task-text">git commit</span>
+        <div class="action-btns">
+          <button class="view-btn">View</button>
+          <button class="edit-btn">Edit</button>
+          <button class="remove-btn">Delete</button>
+        </div>
+      </li>
+       <li>
+        <span class="task-text">git push</span>
+        <div class="action-btns">
+          <button class="view-btn">View</button>
+          <button class="edit-btn">Edit</button>
+          <button class="remove-btn">Delete</button>
+        </div>
+      </li> -->
+    </ul>
+
+    <div class="footer">
+      Enjoy your task! Best of luck with your goals. 🚀
+      From Sandesh Bhatta<br>
+      you can visit my personal portfolio <br> 
+      "<Sandeshbhatta495 class="com"></Sandeshbhatta495>np"
+      <h5> S-Tech Lab Balkhu </h5>
+    </div>
+  </div>
+<script src="main.js"></script>
+
+</body>
+</html>

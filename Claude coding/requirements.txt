@@ -1,0 +1,15 @@
+# Restaurant & Café Management System
+# Python Dependencies
+
+# PDF Generation (Optional but recommended)
+reportlab>=3.6.0
+
+# Note: tkinter and sqlite3 are included with Python standard library
+# No additional installation needed for core functionality
+
+# Optional: For creating executable
+# pyinstaller>=5.0.0
+
+# Development dependencies (optional)
+# pylint>=2.15.0
+# black>=22.0.0
